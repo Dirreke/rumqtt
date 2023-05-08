@@ -29,9 +29,9 @@ pub use self::router::shared_subs::Strategy;
 
 mod link;
 pub mod protocol;
-mod router;
+pub mod router;
 mod segments;
-mod server;
+pub mod server;
 
 pub type ConnectionId = usize;
 pub type RouterId = usize;
